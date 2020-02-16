@@ -1,0 +1,29 @@
+<div class="container" style="margin-top: 70px;">
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <div>
+        <form>
+          <div class="form-group">
+            <label for="id">ID</label>
+            <input [(ngModel)]="contact.id" type="text" name="id" class="form-control" id="id" aria-describedby="idHelp" placeholder="Enter ID">
+            <small id="idHelp" class="form-text text-muted">Enter your contact's ID</small>
+
+            <label for="name">Contact Name</label>
+            <input [(ngModel)]="contact.name" type="text" name="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Contact Name">
+            <small id="nameHelp" class="form-text text-muted">Enter your contact's Name</small>
+
+            <label for="email">Contact Email</label>
+            <input [(ngModel)]="contact.email" type="text" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Contact Email">
+            <small id="emailHelp" class="form-text text-muted">Enter your contact's Email</small>
+
+            <label for="description">Contact Description</label>
+            <input [(ngModel)]="contact.description" type="text" name="description" class="form-control" id="description" aria-describedby="descriptionHelp" placeholder="Enter Contact Description">
+            <small id="descriptionHelp" class="form-text text-muted">Enter your contact's Description</small>
+
+          </div>
+        </form>
+        <button class="btn btn-primary" (click)="createContact()">Create contact</button>
+      </div>
+    </div>
+  </div>
+</div>

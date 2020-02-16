@@ -1,6 +1,6 @@
 # AngularDocker
 
-This is a simple Dockerized Angular app, based on the [blog](https://mherman.org/blog/dockerizing-an-angular-app/) from Michael Herman.
+This is a Dockerized Angular app, based on the blog [dockerizing an angular app](https://mherman.org/blog/dockerizing-an-angular-app/) from Michael Herman and the blog [angular application bootstrap](https://www.smashingmagazine.com/2019/02/angular-application-bootstrap/) from Ahmed Bouchefra.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
